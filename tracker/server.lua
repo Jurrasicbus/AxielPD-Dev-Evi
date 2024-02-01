@@ -196,7 +196,7 @@ function parseSQLContent(content)
 end
 function sendEmbedForNewResource(resourceInfo)
     local webhookUrl =
-        "https://canary.discord.com/api/webhooks/1199822099833966692/IYB9FOusSyOvOWKFojUmQK5WFOCy7R_hWel1otFOFiUfjcGLBP1oPYA0uZq01sNSmvEw" -- Replace with your actual webhook URL
+        "" -- Replace with your actual webhook URL
     local updateurl = "https://s3.amazonaws.com/images.ecwid.com/images/12534923/1234869077.jpg"
 
     local metadataDescription = string.format(
@@ -248,7 +248,7 @@ function sendEmbedForNewResource(resourceInfo)
 end
 function sendEmbedForMissingResource(missingResource)
     local webhookUrl =
-        "https://canary.discord.com/api/webhooks/1199822099833966692/IYB9FOusSyOvOWKFojUmQK5WFOCy7R_hWel1otFOFiUfjcGLBP1oPYA0uZq01sNSmvEw"
+        ""
     local metadataDescription = string.format(
         "**Author:** %s\n**Description:** %s\n**Client Scripts:** %s\n**Server Scripts:** %s\n**Dependencies:** %s\n**FX Version:** %s",
         missingResource.metadata.author,
@@ -309,7 +309,7 @@ function loadContentDataFromSQL()
 end
 function sendNotificationForUpdatedMetadata(resourceName, metadataDifferences)
     local webhookUrl =
-        "https://canary.discord.com/api/webhooks/1199822099833966692/IYB9FOusSyOvOWKFojUmQK5WFOCy7R_hWel1otFOFiUfjcGLBP1oPYA0uZq01sNSmvEw"
+        ""
     local differencesText = ""
     for key, diff in pairs(metadataDifferences) do
         differencesText = differencesText .. string.format("%s: %s -> %s\n", key, diff.oldValue, diff.newValue)
