@@ -1,5 +1,5 @@
-local webhookUrl = "https://canary.discord.com/api/webhooks/1199822099833966692/IYB9FOusSyOvOWKFojUmQK5WFOCy7R_hWel1otFOFiUfjcGLBP1oPYA0uZq01sNSmvEw"
-local updateurl = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.tezTZgsIqYV-ItorKrCH6gHaGP%26pid%3DApi&f=1&ipt=882eb6677c647d4a0004616dc19d8edc598936996f6fdac8b12bf60501de5744&ipo=images"
+local webhookUrl = ""
+local updateurl = ""
 
 -- Helper functions
 
