@@ -1,8 +1,8 @@
 -- MADE BY LEFOS
 
 -- CONFIG, CHANGE THINGS
-local webhook1 = "https://canary.discord.com/api/webhooks/1190688672195026964/u0oxr_z9_rWQvuedf_A9um9szbCXqxnWLr_ZIRoFVLhdnUfa-IcrJXhw06ur6kOGEnpS" -- Create a webhook and put it here
-local webhook2 = "https://canary.discord.com/api/webhooks/1190688672195026964/u0oxr_z9_rWQvuedf_A9um9szbCXqxnWLr_ZIRoFVLhdnUfa-IcrJXhw06ur6kOGEnpS" -- Create a webhook and put it here
+local webhook1 = "" -- Create a webhook and put it here
+local webhook2 = "" -- Create a webhook and put it here
 local username = "CWRPC" -- Put your server name or anything else you want the author of the message to be
 
 -- Function to extract identifiers
